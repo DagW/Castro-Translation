@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Тексты для списка -->
+    <string-array name="navigation_main_sections">
+        <item>Главная</item>
+        <item>Процессор</item>
+        <item>Ядро</item>
+        <item>Устройство</item>
+        <item>Батарея</item>
+        <item>Память</item>
+        <item>Сеть</item>
+    </string-array>
+
+    <!-- Иконки для списка -->
+    <string-array name="drawer_drawable_ids">
+        <item>@drawable/ic_main</item>
+        <item>@drawable/ic_processor</item>
+        <item>@drawable/ic_kernel</item>
+        <item>@drawable/ic_device</item>
+        <item>@drawable/ic_battery</item>
+        <item>@drawable/ic_memory</item>
+        <item>@drawable/ic_cellular</item>
+    </string-array>
+
+    <!-- Типы для измерения температуры батареи -->
+    <string-array name="battery_entries">
+        <item>Градус Цельсия (°C)</item>
+        <item>Градус Фарингейта (°F)</item>
+    </string-array>
+
+    <!-- Значения для измерения температуры батареи -->
+    <string-array name="battery_entry_values">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+
+    <!-- Разные темы для отправки отзывов -->
+    <string-array name="feedback_subjects">
+        <item>Проблема</item>
+        <item>Предложение</item>
+        <item>Прочее</item>
+    </string-array>
+
+</resources>

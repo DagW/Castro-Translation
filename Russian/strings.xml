@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Castro</string>
+    <string name="app_version">1.0</string>
+
+    <!-- Строки для главной -->
+    <string name="main_title">Главная</string>
+    <string name="main_warning">Программа находится\nв бета-тестировании</string>
+    <string name="main_disclaimer">От Вас требуется предоставить валидность всех данных. В случае если какие-либо данные неверны, отправьте соответствующий отзыв с описанием проблемы, нажав на кнопку ниже.</string>
+    <string name="main_comment">Отзыв</string>
+
+    <!-- Строки для информации о процессоре -->
+    <string name="cpu_title">Процессор</string>
+    <string name="cpu_info_card">Информация о процессоре</string>
+    <string name="cpu_type">Тип процессора</string>
+    <string name="cpu_vendor">Поставщик</string>
+    <string name="cpu_architecture">Архитектура</string>
+    <string name="cpu_cores">Ядра</string>
+    <string name="cpu_frequency">Частота</string>
+    <string name="cpu_usage">Загрузка</string>
+    <string name="cpu_usage_card">Загрузка процессора</string>
+    <string name="cpu_gpu_card">GPU</string>
+    <string name="cpu_gpu_frequency">Частота</string>
+    <string name="cpu_gpu_opengl">OpenGL</string>
+    <string name="cpu_not_available">Не доступна</string>
+    <string name="cpu_cores_stopped">остановлен</string> <!-- Так и должно оставаться с маленькой буквы -->
+
+    <!-- Строки для информации о ядре -->
+    <string name="core_title">Ядро</string>
+    <string name="core_info_card">Информация о ядре</string>
+    <string name="core_version">Версия</string>
+    <string name="core_governor">Governor</string>
+    <string name="core_current">Текущий</string>
+    <string name="core_available">Доступные</string>
+    <string name="core_iocheduler">I/O Scheduler</string>
+
+    <!-- Строки для информации об устройстве -->
+    <string name="device_title">Устройство</string>
+    <string name="device_info_card">Информация об устройстве</string>
+    <string name="device_model">Модель</string>
+    <string name="device_codename">Кодовое имя</string>
+    <string name="device_manufacturer">Производитель</string>
+    <string name="device_osversion">Версия ОС</string>
+    <string name="device_buildnumber">Номер сборки</string>
+    <string name="device_sdkversion">Версия SDK</string>
+    <string name="device_brand">Бренд</string>
+    <string name="device_radio">Модуль связи</string>
+    <string name="device_display">Дисплей</string>
+    <string name="device_resolution">Разрешение</string>
+    <string name="device_framerate">Частота обновлений</string>
+
+    <!-- Строки для информации о Батарее -->
+    <string name="battery_title">Батарея</string>
+    <string name="battery_status_card">Состояние</string>
+    <string name="battery_loadlevel">Уровень заряда</string>
+    <string name="battery_source">Источник питания</string>
+    <string name="battery_loadstatus">Состояние заряда</string>
+    <string name="battery_info_card">Информация о батарее</string>
+    <string name="battery_type">Тип батареи</string>
+    <string name="battery_temperature">Температура</string>
+    <string name="battery_voltage">Вольтаж</string>
+    <string name="battery_charge_usb">Порт USB</string>
+    <string name="battery_charge_ac">От сети</string>
+    <string name="battery_charge_battery">Аккумулятор</string>
+    <string name="battery_status_charging">Заряжается</string>
+    <string name="battery_status_discharging">Разряжается</string>
+    <string name="battery_status_not_charging">Не заряжается</string>
+    <string name="battery_status_charged">Заряжена</string>
+
+    <!-- Строки для информация Память -->
+    <string name="memory_title">Память</string>
+    <string name="memory_ram_card">Оперативная память</string>
+    <string name="memory_internal_card">Внутренняя память</string>
+    <string name="memory_all">Всего</string>
+    <string name="memory_available">Доступно</string>
+    <string name="memroy_megabytes">МБ</string>
+
+    <!-- Строки для информации о Сети -->
+    <string name="network_title">Сеть</string>
+    <string name="network_mobile_card">Мобильный оператор</string>
+    <string name="network_operator">Оператор</string>
+    <string name="network_phonetype">Тип телефона</string>
+    <string name="network_countrycode">Код страны</string>
+    <string name="network_nettype">Тип сети</string>
+    <string name="network_netstatus">Статус сети</string>
+    <string name="network_roaming">Роуминг</string>
+    <string name="network_wifi_card">Wi-Fi</string>
+    <string name="network_ssid">Название сети</string>
+    <string name="network_frequency">Частота</string>
+    <string name="netwokk_speed">Скорость связи</string>
+    <string name="network_ip">IP-адрес</string>
+    <string name="network_mac">MAC</string>
+    <string name="network_bssid">BSSID</string>
+    <string name="network_rssi">Сигнал (RSSI)</string>
+    <string name="network_wifi_disabled">Сеть Wi-Fi отключена</string>
+    <string name="network_type_none">Нет модуля</string>
+    <string name="network_data_connected">Подключено</string>
+    <string name="network_data_connecting">Подключаеться</string>
+    <string name="network_data_disconnected">Отключено</string>
+    <string name="network_data_suspended">Заморожено</string>
+    <string name="network_roaming_enabled">Подключен</string>
+    <string name="network_roaming_disabled">Отключен</string>
+
+    <!-- Строки для Настроек -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_battery_unit_title">Единица измерения температуры</string>
+    <string name="settongs_battery_unit_summary">Цельсий или Фаренгейт</string>
+    <string name="settings_info_category">Информация</string>
+    <string name="settings_licenses_title">Лицензии открытого ПО</string>
+    <string name="settings_licenses_summary">Сведения о лицензиях на ПО с открытым исходным кодом</string>
+
+    <!-- Строки для окна отзывов -->
+    <string name="feedback_title">Контакт с разработчиком</string>
+    <string name="feedback_theme">Тема</string>
+    <string name="feedback_message">Сообщение</string>
+    <string name="feedback_send">Отправить</string>
+    <string name="feedback_details">Детали устройства</string>
+    <string name="feedback_message_error">Введите сообщение</string>
+    <string name="feedback_mail_message">Сообщение: </string> <!-- Сохраняйте пробелы -->
+    <string name="feedback_mail_version">Версия программы</string>
+
+    <!-- Строки для окна AboutActivity -->
+    <string name="about_activity">О программе</string>
+    <string name="about_version">1.0 (Beta Build 1)</string>
+    <string name="about_developer_title">Разработчик</string>
+    <string name="about_developer">© 2015 Item Studio</string>
+    <string name="about_translaters_title">Переводчики</string>
+    <string name="about_translaters">Приложение переведено добровольцами на <u>github.com</u></string>
+    <string name="about_urls_title">Ссылки</string>
+    <string name="about_urls_twitter"><u>Twitter</u></string>
+    <string name="about_urls_googleplus"><u>Google +</u></string>
+
+    <!-- Строки для Helper'a -->
+    <string name="helper_unavailable">Не доступно</string>
+    <string name="helper_not_recognized">Неизвестно</string>
+
+    <!-- Разные строки -->
+    <string name="drawer_open">Открыть</string>
+    <string name="drawer_close">Закрыть</string>
+    <string name="description_drawer_icon">Иконка списка</string>
+    <string name="description_app_icon">Иконка программы</string>
+</resources>
