@@ -5,9 +5,9 @@
 
     <!-- Строки для главной -->
     <string name="main_title">Main</string>
-    <string name="main_warning">The program is being\non the beta-testing</string>
-    <string name="main_disclaimer">You have to provide us with all valid data. In case if some information is wrong send us request with description of the problem by pressing button below.</string>
-    <string name="main_comment">Comment</string>
+    <string name="main_warning">This application is currently\nin beta</string>
+    <string name="main_disclaimer">You have to provide us with valid data. In case some information is wrong send us a description of the issue by pressing button below.</string> 
+    <string name="main_comment">Report issue</string>
 
     <!-- Строки для информации о процессоре -->
     <string name="cpu_title">CPU</string>
